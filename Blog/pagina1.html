@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>edsfaefrgffffffffffffffffffffffffffff</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>La 1</th>
+                <th>La 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>21:00</th>
+                <td rowspan="2">Telediario 2</td>
+                <td>Página 2</td>
+            </tr>
+            <tr>
+                <th>21:30</th>
+                <td></td>
+                <td>Ese programa...</td>
+            </tr>
+            <tr>
+                <th>22:00</th>
+                <td>Lo siguiente</td>
+                <td>Planeta azul</td>
+            </tr>
+            <tr>
+                <th>22:30</th>
+                <td>El rey Arturo</td>
+                <td>Un país...</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <p></p>
+
+    <form action="/login" method="POST">
+        <fieldset>
+
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="username" autofocus pattern="[aA].*"> <!--Regexper-->
+        </div>
+        <div>
+            <label for="pass">Contraseña</label>
+            <input type="text" id="pass" name="pw">
+        </div>
+
+        </fieldset>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email"> 
+        </div>
+        <div>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+        </div>
+        <div>
+            <label for="url">Url</label>
+            <input type="url" id="url" name="url">
+        </div>
+        <div>
+            <label for="verdad">Es verdad?</label>
+            <input type="radio" id="verdad" name="verdad" value="si" checked>Si
+            <input type="radio" id="verdad" name="verdad" value="no">No
+        </div>
+        <div>
+                <label for="precio">Precio:</label>
+                <input type="numuber" id="precio" name="precio" step="0.01">
+        </div>
+        <div>
+                <label for="precio">Precio:</label>
+                <input type="numuber" id="precio" name="precio" step="0.01">
+        </div>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+</body>
+
+</html>

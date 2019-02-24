@@ -1,0 +1,72 @@
+*{
+    color: blue;
+}
+
+h2, h3{
+    color: yellow;
+}
+
+div > p{
+    font-style: italic;
+}
+
+div p{
+    font-style: italic;
+}
+
+.titulo, .subtitulo{
+    text-decoration: rgb(247, 2, 173); 
+}
+
+#Titulo-principal{
+ border: 1px solid black;
+}
+
+label + input{
+    width: 400px;
+}
+
+
+input[required]{
+    border: 1px solid orange;
+    background-color: aquamarine;
+}
+
+a[href="www.babel.es"] {
+    text-decoration: line-through;
+}
+
+a:not([href^="http"]){
+text-decoration: underline;
+}
+
+a[href*=".com"]{
+    color: red;
+}
+
+h1:not(.titulo){
+    text-decoration: line-through;
+}
+
+.opacidad{
+    height: 80px;
+    width: 50%;
+    border: 1px solid orange;
+    opacity: 1;
+    background: linear-gradient(to top right, orange 10px, blue);
+    overflow: scroll;
+    margin: auto;   
+    box-shadow: 20px 20px 50px black;
+    border-radius: 15%;
+}
+
+body{
+    background-image: url(Babel.png);
+    background-repeat: no-repeat;
+}
+
+.conimagen{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}

@@ -1,0 +1,18 @@
+div#Ejemplo{
+    height: 125px;
+    width: 150px;
+    background-color: gray;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    overflow: hidden;
+    transition: height 1s;
+}
+
+div#Ejemplo:hover{
+    transition: height 1s ;
+    height: 200px;
+    border: 1px solid green;
+}
+

@@ -1,0 +1,54 @@
+
+#titulo{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+
+div#pregunta{
+    display: flex;
+    border: 1px solid black;
+    background-color: coral;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+div#opciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section{
+    border: 1px solid black;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+@media screen and (min-width: 200px){
+    section{
+        width: 100%;
+        height: 80px;
+        
+    }
+}
+
+@media screen and (min-width: 550px){
+    section{
+        width: 50%;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 850px){
+    section{
+        width: 25%;  
+        height: 80px;
+        width: 20%;
+    }
+}
+
